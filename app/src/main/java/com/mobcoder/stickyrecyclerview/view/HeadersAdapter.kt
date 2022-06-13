@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.mobcoder.stickyrecyclerview.data.Book
 import com.mobcoder.stickyrecyclerview.databinding.ViewListItemBinding
 
-class FruitsAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class HeadersAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private var bookHeaders: List<Char> = listOf()
 
